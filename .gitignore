@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Ambientes e Variáveis
+.env
+.env.*
+*.env
+secrets.*
+*.key
+*.pem
+*.pfx
+
+# Logs e Relatórios Locais
+*.log
+logs/
+log_switch_*.txt
+*.csv
+!requirements.txt
+
+# Inventário local com IPs/Hosts de produção
+hosts.json
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db

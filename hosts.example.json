@@ -1,0 +1,21 @@
+{
+    "groups": [
+        "Core",
+        "Distribuicao",
+        "Acesso"
+    ],
+    "hosts": [
+        {
+            "name": "SWITCH-CORE-01",
+            "ip": "192.0.2.10",
+            "user": "admin",
+            "group": "Core"
+        },
+        {
+            "name": "SW-ACESSO-FLOOR1",
+            "ip": "198.51.100.15",
+            "user": "admin",
+            "group": "Acesso"
+        }
+    ]
+}
